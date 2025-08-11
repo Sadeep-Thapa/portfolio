@@ -233,3 +233,66 @@ footer {
     padding: 15px;
     margin-top: 30px;
 }
+
+/* Media query */
+@media (max-width: 768px) {
+    /* Navbar */
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        width: 100%;
+    }
+
+    .nav-links a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        text-align: left;
+    }
+
+    /* Hero Section */
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    /* CV Buttons in About Section */
+    .cv-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cv-buttons .btn {
+        width: 90%;
+        text-align: center;
+    }
+
+    /* Project Section Padding Fix */
+    .project-grid {
+        padding: 0;
+    }
+
+    /* Contact Form */
+    form {
+        width: 90%;
+    }
+}
