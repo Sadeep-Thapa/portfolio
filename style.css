@@ -224,6 +224,21 @@ form button:hover {
     margin-top: 10px;
     color: green;
 }
+/* WhatsApp */
+.whatsapp-btn {
+    background: #25d366;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background: #1ebd5a;
+}
 
 /* Footer */
 footer {
